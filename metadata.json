@@ -1,0 +1,19 @@
+{
+  "name": "halyard-smb",
+  "version": "0.0.1",
+  "author": "Les Aker",
+  "license": "MIT",
+  "summary": "Configure devices and mounts",
+  "source": "https://github.com/halyard/puppet-smb",
+  "project_page": "https://github.com/halyard/puppet-smb",
+  "issues_url": "https://github.com/halyard/puppet-smb/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs/mount_core",
+      "version_requirement": ">= 1.1.0"
+    }
+  ],
+  "operatingsystem_support": [
+
+  ]
+}
