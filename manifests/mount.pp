@@ -1,10 +1,10 @@
 # @summary Create an SMB mountpoint
 #
-# @param path (namevar) sets the local path for the mount
 # @param share sets the upstream path for the share
+# @param path (namevar) sets the local path for the mount
 define smb::mount (
-  String $path,
   String $share,
+  String $path = $title,
 ) {
   file { $path:
     ensure => directory,
