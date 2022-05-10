@@ -1,6 +1,6 @@
 # @summary Configure SMB mounts
 #
-# @param lvs sets LVs to manage
+# @param mounts sets LVs to manage
 class smb (
   Hash[String, Hash] $mounts = {},
 ) {
